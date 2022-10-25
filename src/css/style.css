@@ -1,0 +1,16 @@
+* {
+  font-family: 'Museo Sans Cyrl'; }
+
+h1 {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 20px;
+  color: blue;
+  font-weight: 900; }
+
+h2 {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 100px;
+  color: aqua;
+  font-weight: 500; }
+
+/*# sourceMappingURL=style.css.map */
