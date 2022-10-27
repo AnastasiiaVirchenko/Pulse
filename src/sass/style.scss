@@ -1,17 +1,12 @@
+@import 'variables.scss';
+
 * {
     font-family: 'Museo Sans Cyrl'; }
   
-
-h1 {
-    font-family: 'Museo Sans Cyrl';
-    font-size: 20px;
-    color:blue;
-    font-weight: 900;
+.container {
+    max-width: 950px;
+    margin: 0, auto;
 }
-
-h2 {
-    font-family: 'Museo Sans Cyrl';
-    font-size: 100px;
-    color:aqua;
-    font-weight: 500;
-}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
