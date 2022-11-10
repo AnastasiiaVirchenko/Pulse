@@ -246,5 +246,8 @@
 
 .carousel {
   padding: 81px 0; }
+  .carousel__inner {
+    width: 750px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
