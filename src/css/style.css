@@ -251,7 +251,7 @@
       margin-bottom: 20px; }
 
 .carousel {
-  padding: 81px 0; }
+  padding-top: 89px; }
   .carousel__inner {
     position: relative;
     width: 750px;
@@ -272,7 +272,7 @@
     right: -66px; }
 
 .catalog {
-  padding-bottom: 100px; }
+  padding-top: 40px; }
   .catalog .title {
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -474,5 +474,67 @@
       text-transform: uppercase; }
       .catalog-item__back:hover {
         color: #C70101; }
+
+.review {
+  padding-top: 79px;
+  min-height: 930px; }
+  .review .title {
+    margin-bottom: 60px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    text-align: center; }
+  .review .review-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .review .review-content__item {
+      margin-bottom: 60px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .review .review-content__item .review-content__item_information {
+        margin-left: 60px; }
+        .review .review-content__item .review-content__item_information img {
+          width: 169px;
+          height: 169px; }
+        .review .review-content__item .review-content__item_information .item_title {
+          font-family: 'Museo Sans Cyrl';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          color: #0D0D0D; }
+        .review .review-content__item .review-content__item_information .item_subtitle {
+          font-family: 'Museo Sans Cyrl';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: #646464; }
+        .review .review-content__item .review-content__item_information .item_descr {
+          margin-top: 10px;
+          font-family: 'Museo Sans Cyrl';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+          color: #0D0D0D; }
 
 /*# sourceMappingURL=style.css.map */
