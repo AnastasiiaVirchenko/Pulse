@@ -1,0 +1,63 @@
+.review {
+    padding-top: 79px;
+    min-height: 930px;
+    
+    .title {
+        margin-bottom: 60px;
+        font-family: 'Museo Sans Cyrl';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+        text-align: center;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+
+        &__item {
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            .review-content__item_information {
+                margin-left: 60px;
+                img {
+                    width: 169px;
+                    height: 169px;
+                }
+                .item_title {
+                    font-family: 'Museo Sans Cyrl';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #0D0D0D;
+                }
+                .item_subtitle {
+                    font-family: 'Museo Sans Cyrl';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #646464;
+                }
+                .item_descr {
+                    margin-top: 10px;
+                    font-family: 'Museo Sans Cyrl';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #0D0D0D;
+                }
+                
+            }
+
+        }
+        
+
+    }
+}
