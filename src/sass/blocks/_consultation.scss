@@ -18,5 +18,13 @@
         color: #FFFFFF;
         margin-top: 10px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #FFFFFF;
+        border: none;
+        margin-bottom: 15px;
+    }
 
 }

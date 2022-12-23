@@ -37,5 +37,56 @@ $(document).ready(function(){
     });
   });
   
+  //Windows
+$('[data-window=consultation]').on('click', function () {
+  $('.overlay, #consultation').fadeIn('slow');
+});
+
+$('.window__close').on('click', function(){
+  $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+});
+$('.button_mini').on('click', function () {
+  $('.overlay, #order').fadeIn('slow');
+});
+
+$('.button_mini').each(function(i) {
+$(this).on('click', function () {
+ $('#order .window__descr').text($('.catalog-item__subtitle').eq(i).text());
+ $('.overlay, #order').fadeIn('slow');
+});
+});
+
+  function valideForms(form){
+    $(form).validate({
+      rules: {
+        name: {
+          required: true,
+          minlength: 2
+        },
+        phone: "required",
+        email: { 
+          required: true,
+          email: true
+      }
+      },
+      messages: {
+        name: {
+          required: "Please, enter your name",
+          minlength: jQuery.validator.format("At least {0} characters required!")
+        },
+        phone: "Please enter your phone number",
+        email: {
+          required: "Please enter your email",
+          email: "This emais is incorrect"
+        }
+      }
+      
+      });
+  };
+  valideForms('#consultation-form');
+  valideForms('#consultation form');
+  valideForms('#order form');
+
+  $('input[name=phone]').mask("+44 999-999-9999");
 
 });        
